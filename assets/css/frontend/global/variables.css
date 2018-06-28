@@ -1,0 +1,14 @@
+/**
+ * Global variables
+ */
+
+:root {
+    /**
+     * Colors
+     */
+    --white:       #fff;
+    --black:       #000;
+    --dark-gray:   #686868;
+    --medium-gray: #D8D8D8;
+    --light-gray:  #F6F6F6;
+}

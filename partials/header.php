@@ -28,6 +28,19 @@
 			}
 			?>
 		</div>
-		<div class="navigation -right"></div>
+		<div class="navigation -right">
+			<?php
+			wp_nav_menu( [
+				'theme_location' => 'header_right',
+			] );
+			?>
+		</div>
+		<div class="navigation -bottom">
+			<?php
+			wp_nav_menu( [
+				'theme_location' => 'header_bottom',
+			] );
+			?>
+		</div>
 	</div>
 </div>

@@ -16,6 +16,8 @@
 			<?php
 			wp_nav_menu( [
 				'theme_location' => 'header_left',
+				'container'      => 'ul',
+				'menu_class'     => 'actions-menu',
 			] );
 			?>
 		</div>
@@ -32,15 +34,19 @@
 			<?php
 			wp_nav_menu( [
 				'theme_location' => 'header_right',
+				'container'      => 'ul',
+				'menu_class'     => 'notifications-menu',
 			] );
 			?>
 		</div>
-		<div class="navigation -bottom">
+		<nav class="navigation -bottom" role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
 			<?php
 			wp_nav_menu( [
 				'theme_location' => 'header_bottom',
+				'container'      => 'ul',
+				'menu_class'     => 'primary-menu',
 			] );
 			?>
-		</div>
+		</nav>
 	</div>
 </div>

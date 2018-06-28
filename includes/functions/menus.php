@@ -8,6 +8,9 @@
 
 namespace Blogly\Menu;
 
+/**
+ * Attach hooks.
+ */
 function setup() {
 	$n = function( $function ) {
 		return __NAMESPACE__ . "\\$function";

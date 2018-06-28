@@ -19,7 +19,15 @@
 			] );
 			?>
 		</div>
-		<div class="navigation -center"></div>
+		<div class="navigation -center">
+			<?php
+			if ( has_custom_logo() ) {
+				the_custom_logo();
+			} else {
+				bloginfo( 'name' );
+			}
+			?>
+		</div>
 		<div class="navigation -right"></div>
 	</div>
 </div>

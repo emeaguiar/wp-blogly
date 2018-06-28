@@ -13,8 +13,12 @@ define( 'BLOGLY_INC',          BLOGLY_PATH . 'includes/' );
 require_once BLOGLY_INC . 'core.php';
 require_once BLOGLY_INC . 'template-tags.php';
 
+require_once BLOGLY_INC . 'functions/menus.php';
+
 // Run the setup functions.
 Blogly\Core\setup();
+
+Blogly\Menu\setup();
 
 // Require Composer autoloader if it exists.
 if ( file_exists( __DIR__ . '/vendor/autoload.php' ) ) {

@@ -85,4 +85,11 @@ function styles() {
 		[],
 		BLOGLY_VERSION
 	);
+
+	wp_enqueue_style(
+		'fonts',
+		'https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i|Playfair+Display:400,700',
+		[],
+		BLOGLY_VERSION
+	);
 }

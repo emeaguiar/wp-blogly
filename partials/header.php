@@ -30,7 +30,7 @@
 		<nav class="navigation-menu -bottom" role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
 			<?php
 			wp_nav_menu( [
-				'theme_location' => 'header_bottom',
+				'theme_location' => 'primary',
 				'container'      => 'ul',
 				'menu_class'     => 'primary-menu menu',
 			] );

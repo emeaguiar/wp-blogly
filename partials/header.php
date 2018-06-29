@@ -13,13 +13,7 @@
 >
 	<div class="wrapper">
 		<div class="navigation-menu -side -left">
-			<?php
-			wp_nav_menu( [
-				'theme_location' => 'header_left',
-				'container'      => 'ul',
-				'menu_class'     => 'actions-menu menu',
-			] );
-			?>
+			<?php get_template_part( 'partials/nav', 'actions' ); ?>
 		</div>
 		<div class="navigation-menu -center">
 			<?php
@@ -31,13 +25,7 @@
 			?>
 		</div>
 		<div class="navigation-menu -side -right">
-			<?php
-			wp_nav_menu( [
-				'theme_location' => 'header_right',
-				'container'      => 'ul',
-				'menu_class'     => 'notifications-menu menu',
-			] );
-			?>
+			<?php get_template_part( 'partials/nav', 'notifications' ); ?>
 		</div>
 		<nav class="navigation-menu -bottom" role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
 			<?php

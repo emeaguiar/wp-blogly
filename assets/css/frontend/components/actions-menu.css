@@ -1,0 +1,23 @@
+.actions-menu {
+	& .action {
+		& .link {
+			height: 20px;
+			text-indent: -9999em;
+		}
+
+		& .link:after {
+			content: " ";
+			display: inline-block;
+			width: 20px;
+			height: 20px;
+		}
+
+		&.-share .link:after {
+			background: var( --icon-share ) no-repeat center;
+		}
+
+		&.-search .link:after {
+			background: var( --icon-search ) no-repeat center;
+		}
+	}
+}

@@ -1,0 +1,18 @@
+.navigation-menu {
+    &.-bottom {
+        grid-column-end: span 3;
+    }
+
+    & ul {
+        display: flex;
+        list-style-type: none;
+
+	    & .sub-menu {
+		    display: none;
+	    }
+    }
+
+	&.-side {
+
+	}
+}

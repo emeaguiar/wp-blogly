@@ -1,7 +1,8 @@
 .site-header {
-    & > .wrapper {
-          display: flex;
-          margin: auto;
-          max-width: 1180px;
-    }
+	& > .wrapper {
+		display: grid;
+		grid-template: 1fr 1fr / 30% 1fr 30%;
+		margin: auto;
+		max-width: 1180px;
+	}
 }

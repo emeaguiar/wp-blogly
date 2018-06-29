@@ -15,7 +15,7 @@
 		<div class="navigation-menu -side -left">
 			<?php get_template_part( 'partials/nav', 'actions' ); ?>
 		</div>
-		<div class="navigation-menu -center">
+		<div class="navigation-menu -logo -center">
 			<?php
 			if ( has_custom_logo() ) {
 				the_custom_logo();

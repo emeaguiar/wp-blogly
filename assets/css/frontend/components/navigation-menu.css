@@ -1,4 +1,6 @@
 .navigation-menu {
+	align-self: center;
+
     &.-bottom {
         grid-column-end: span 3;
     }
@@ -14,5 +16,13 @@
 
 	&.-side {
 
+	}
+
+	&.-logo {
+		font-family: var( --secondary-font );
+		font-size: 2.25rem;
+		letter-spacing: 5px;
+		text-align: center;
+		text-transform: uppercase;
 	}
 }

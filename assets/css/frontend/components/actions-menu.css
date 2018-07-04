@@ -1,0 +1,40 @@
+.actions-menu {
+	& .action {
+		& .link {
+			height: 20px;
+			margin-right: 30px;
+		}
+
+		& .link:after {
+			content: " ";
+			display: inline-block;
+			width: 20px;
+			height: 20px;
+		}
+
+		&.-share .link:after {
+			background: var( --icon-share ) no-repeat center;
+		}
+
+		&.-search .link:after {
+			background: var( --icon-search ) no-repeat center;
+		}
+
+		&.-notification .link:after {
+			background: var( --icon-bell ) no-repeat center;
+		}
+
+		&.-favorite .link:after {
+			background: var( --icon-heart ) no-repeat center;
+		}
+	}
+
+	&.-right {
+		justify-content: flex-end;
+
+		& .link {
+			margin-right: 0;
+			margin-left: 30px;
+		}
+	}
+}

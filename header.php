@@ -11,3 +11,5 @@
 	</head>
 	<body <?php body_class(); ?>>
 		<?php do_action( 'after_body' ); ?>
+
+        <?php get_template_part( 'partials/header' ); ?>

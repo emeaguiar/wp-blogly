@@ -1,0 +1,32 @@
+.navigation-menu {
+	align-self: center;
+
+    &.-bottom {
+        grid-column-end: span 3;
+
+	    @media ( --tablet ) {
+		    justify-self: center;
+		    margin-top: 30px;
+	    }
+    }
+
+    & .menu {
+        display: flex;
+        list-style-type: none;
+	    margin: 0;
+	    padding: 0;
+
+	    & .children,
+	    & .sub-menu {
+		    display: none;
+	    }
+    }
+
+	&.-logo {
+		font-family: var( --secondary-font );
+		font-size: 2.25rem;
+		letter-spacing: 5px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+}

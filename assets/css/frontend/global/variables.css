@@ -1,0 +1,32 @@
+/**
+ * Global variables
+ */
+
+@custom-media --tablet ( width >= 768px );
+
+:root {
+    /**
+     * Colors
+     */
+    --white:       #fff;
+    --black:       #000;
+    --dark-gray:   #686868;
+    --medium-gray: #D8D8D8;
+    --light-gray:  #F6F6F6;
+    --dodger-blue: #44C0FE;
+
+    --color-link: var( --black );
+    --color-link-hover: var( --dodger-blue );
+
+    --primary-font:   'Lato', sans-serif;
+    --secondary-font: 'Playfair Display', serif;
+
+    /**
+     * Icons
+     */
+    --icon-share: url( '../../assets/svg/share.svg' );
+    --icon-search: url( '../../assets/svg/search.svg' );
+    --icon-bell: url( '../../assets/svg/bell.svg' );
+    --icon-heart: url( '../../assets/svg/heart.svg' );
+    --icon-angle-down: url( '../../assets/svg/angle-down.svg' );
+}

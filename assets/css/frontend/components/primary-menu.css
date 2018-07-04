@@ -1,0 +1,14 @@
+.primary-menu {
+	& a {
+		color: var( --color-link );
+		font-size: .75rem;
+		letter-spacing: 5px;
+		margin: 0 25px;
+		text-decoration: none;
+		text-transform: uppercase;
+
+		&:nth-last-child {
+			margin-right: 0;
+		}
+	}
+}

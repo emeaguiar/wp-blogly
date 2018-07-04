@@ -2,7 +2,7 @@
 	& > .wrapper {
 		display: grid;
 		grid-template: 1fr 1fr / 30% 1fr 30%;
-		margin: auto;
+		margin: 50px auto;
 		max-width: 1180px;
 	}
 }

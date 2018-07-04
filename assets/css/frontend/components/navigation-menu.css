@@ -3,8 +3,11 @@
 
     &.-bottom {
         grid-column-end: span 3;
-	    justify-self: center;
-	    margin-top: 30px;
+
+	    @media ( --tablet ) {
+		    justify-self: center;
+		    margin-top: 30px;
+	    }
     }
 
     & .menu {

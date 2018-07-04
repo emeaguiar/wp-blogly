@@ -1,5 +1,13 @@
 .primary-menu {
+	flex-direction: column;
+	width: 100%;
+
+	@media ( --tablet ) {
+		flex-direction: row;
+	}
+
 	& .menu-item {
+		line-height: 2rem;
 		position: relative;
 
 		&:before {
@@ -27,9 +35,13 @@
 		color: var( --color-link );
 		font-size: .75rem;
 		letter-spacing: 5px;
-		margin: 0 25px;
+		margin: 0 1rem;
 		text-decoration: none;
 		text-transform: uppercase;
+
+		@media ( --tablet ) {
+			margin: 0 25px;
+		}
 
 		&:nth-last-child {
 			margin-right: 0;

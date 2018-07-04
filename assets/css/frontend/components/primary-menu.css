@@ -1,4 +1,28 @@
 .primary-menu {
+	& .menu-item {
+		position: relative;
+
+		&:after {
+			background-color: var( --color-link-hover );
+			content: " ";
+			display: block;
+			width: 0;
+			height: 1px;
+			position: absolute;
+			top: calc( 50% + 1px );
+		}
+
+		&:hover {
+			&:after {
+				width: 100%;
+			}
+
+			& a {
+				color: var( --color-link-hover );
+			}
+		}
+	}
+
 	& a {
 		color: var( --color-link );
 		font-size: .75rem;
@@ -9,6 +33,10 @@
 
 		&:nth-last-child {
 			margin-right: 0;
+		}
+
+		&:hover {
+			color: var( --color-link-hover );
 		}
 	}
 }

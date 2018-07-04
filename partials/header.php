@@ -2,7 +2,12 @@
 /**
  * Site header
  */
+
+use Blogly\Menu;
 ?>
+
+<!--Include svg symbols -->
+<?php include_once BLOGLY_PATH . '/dist/svg/symbols.svg'; ?>
 
 <header
 	class="site-header"

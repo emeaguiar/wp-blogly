@@ -2,7 +2,7 @@
 	& .menu-item {
 		position: relative;
 
-		&:after {
+		&:before {
 			background-color: var( --color-link-hover );
 			content: " ";
 			display: block;
@@ -13,7 +13,7 @@
 		}
 
 		&:hover {
-			&:after {
+			&:before {
 				width: 100%;
 			}
 
@@ -35,8 +35,20 @@
 			margin-right: 0;
 		}
 
-		&:hover {
+		&:hover,
+		&:hover:after {
 			color: var( --color-link-hover );
+		}
+	}
+
+	& .menu-item-has-children {
+		& a .icon {
+			fill: currentColor;
+			display: inline-block;
+			margin-left: 3px;
+			width: 10px;
+			height: 10px;
+			vertical-align: initial;
 		}
 	}
 }

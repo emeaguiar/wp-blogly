@@ -1,0 +1,6 @@
+.page-container {
+	&.-narrow {
+		margin: auto;
+		max-width: 50rem;
+	}
+}

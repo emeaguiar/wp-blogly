@@ -11,6 +11,16 @@ h6 {
     font-family: var( --secondary-font );
 }
 
+a {
+	border-bottom: 0.125rem solid;
+	color: var( --color-link );
+	text-decoration: none;
+
+	&:hover {
+		border: 0;
+	}
+}
+
 /* Text meant only for screen readers. */
 .screen-reader-text {
     border: 0;

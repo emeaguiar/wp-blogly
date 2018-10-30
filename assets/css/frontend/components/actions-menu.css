@@ -1,6 +1,7 @@
 .actions-menu {
 	& .action {
 		& .link {
+			border: 0;
 			height: 20px;
 			margin-right: 30px;
 		}

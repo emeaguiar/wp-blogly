@@ -1,0 +1,26 @@
+.article-list {
+	& .link {
+		border: 0;
+		border-bottom: 0.125rem solid var( --medium-gray );
+		display: grid;
+		grid-template: 1fr / 1fr 40%;
+		align-items: center;
+		padding: 1rem 2rem;
+
+		&:hover .title {
+			color: var( --color-link-hover );
+		}
+	}
+
+	& .item:last-child .link {
+		border-bottom: 0;
+	}
+
+	& .title {
+		transition: color .3s ease;
+	}
+
+	& .date {
+		justify-self: end;
+	}
+}

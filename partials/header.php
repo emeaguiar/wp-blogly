@@ -2,8 +2,6 @@
 /**
  * Site header
  */
-
-use Blogly\Menu;
 ?>
 
 <!--Include svg symbols -->

@@ -1,0 +1,9 @@
+.site-footer {
+	display: grid;
+	grid-template: 1fr / 1fr 1fr;
+	font-size: 0.875rem;
+	margin: auto;
+	max-width: 73.75rem;
+	padding: 1rem 0;
+	text-transform: uppercase;
+}
